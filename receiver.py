@@ -39,7 +39,7 @@ if __name__ == '__main__':
         print("mqtt host and topic are needed!")
 
     account = raw_input("--Please input DevIot email account(someone@domain.com):\n")
-    gateway_name = raw_input("--Please input gateway service account:\n")
+    gateway_name = raw_input("--Please input gateway service name:\n")
     topic = "{0:s}-{1:s}-data".format(gateway_name, account)
 
     host_server = ""
